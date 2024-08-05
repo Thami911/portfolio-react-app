@@ -3,7 +3,7 @@ import Netflix from '../assets/netflix-ui.png'
 import ReactUI from '../assets/react-ui.png'
 import Gym from '../assets/gym-ui.png'
 import Weather from '../assets/weather-ui.png'
-Import Apod from '../assets/apod-ui.png'
+import Apod from '../assets/apod-ui.png'
 
 const Work = () => {
     return (
