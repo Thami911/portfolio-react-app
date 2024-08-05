@@ -3,6 +3,7 @@ import Netflix from '../assets/netflix-ui.png'
 import ReactUI from '../assets/react-ui.png'
 import Gym from '../assets/gym-ui.png'
 import Weather from '../assets/weather-ui.png'
+Import Apod from '../assets/apod-ui.png'
 
 const Work = () => {
     return (
@@ -50,6 +51,16 @@ const Work = () => {
                             <div className='pt-8 text-center'>
                                 <a href="https://weather-app-jet-rho-21.vercel.app/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
                                 <a href="https://github.com/Thami911/weather-app"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{ backgroundImage: `url(${Apod})` }} className='shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div h-60 bg-cover bg-center'>
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>ReactJS Application</span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://nasa-image-api-react-app.vercel.app/"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                                <a href="https://github.com/Thami911/nasa-image-api-react-app"><button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
                             </div>
                         </div>
                     </div>
